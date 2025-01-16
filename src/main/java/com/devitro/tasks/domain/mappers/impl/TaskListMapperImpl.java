@@ -12,10 +12,8 @@ import com.devitro.tasks.domain.entities.TaskStatus;
 import com.devitro.tasks.domain.mappers.TaskListMapper;
 
 import lombok.AllArgsConstructor;
-import lombok.RequiredArgsConstructor;
 
 @AllArgsConstructor
-@RequiredArgsConstructor
 @Component
 public class TaskListMapperImpl implements TaskListMapper{
 
